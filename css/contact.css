@@ -1,0 +1,96 @@
+/* -------------- circles --------------- */
+
+.circle {
+    opacity: 0.65;
+}
+
+.circle1 {
+    width: 17rem;
+    height: 17rem;
+    bottom: 5rem;
+    left: 7rem;
+}
+
+.circle2 {
+    width: 13rem;
+    height: 13rem;
+    top: 9rem;
+    right: 4rem;
+}
+
+.circle3 {
+    width: 8rem;
+    height: 8rem;
+    bottom: 1.5rem;
+    left: 17rem;
+}
+
+/* ------------------ main content -------------- */
+
+main {
+    align-items: center;
+    justify-content: space-evenly;
+    margin: .3rem;
+}
+
+h1 {
+    letter-spacing: 0.25em;
+    font-size: 5.5em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.315) ;
+
+}
+
+div.contact-details {
+    padding: 2rem;
+}
+.form {
+    padding: .7rem 0 1rem;
+}
+form {
+    background-color: rgba(238, 238, 238, 0.705);
+    backdrop-filter: blur(5px) saturate(180%);
+    padding: 1.4rem 1.5rem;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+form .form-group {
+    padding: .3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .87rem;
+}
+
+form input, textarea {
+    border: none;
+    width: 70%;
+    line-height: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: .3rem;
+    border-radius: .5rem .5rem 0 0;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-bottom: 2px rgb(39, 97, 115) solid;
+    /* font-size: .85em; */
+}
+
+.social-links a {
+    background-color: rgba(22, 22, 22, 0.87);
+    margin: .3rem .6rem;
+    padding: .6rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+form button {
+    border: none;
+    background-color: rgba(22, 22, 22, 0.87);
+    color: white;
+    /* font-size: .9em; */
+    border-radius: .5rem;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: .5rem;
+    margin: .4rem 0;
+
+}

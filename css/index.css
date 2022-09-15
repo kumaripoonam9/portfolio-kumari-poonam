@@ -1,0 +1,103 @@
+html {
+    overflow: hidden;
+}
+
+
+/* ---------content---------- */
+
+h1 {
+    font-size: 5.5em;
+    /* padding-bottom: .rem; */
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4) ;
+}
+
+p#my-brief {
+    padding-bottom: 3rem;
+    font-size: 1.25em;
+    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.4) ;
+
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin: 2.5rem;
+}
+
+/* blinking dot */
+span#dot {
+    animation: blinking 1.3s infinite;
+    text-shadow: none;
+}
+
+@keyframes blinking {
+    0% {
+        /* visibility: hidden; */
+        color: black;
+    }
+
+    100% {
+        /* visibility: visible; */
+        color: transparent;
+    }
+}
+
+/* socdial links
+.social-links {
+    display: flex;
+    align-content: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    background-color: rgb(22, 22, 22);
+    margin: .3rem .7rem;
+    padding: .85rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4) ;
+
+} */
+
+
+/* circles */
+
+.circle1 {
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+    left: 7rem;
+}
+.circle2 {
+    width: 15rem;
+    height: 15rem;
+    top: 9rem;
+    right: 4rem;
+}
+.circle3 {
+    width: 7rem;
+    height: 7rem;
+    bottom: -1rem;
+    left: 22rem;
+}
+.circle4 {
+    width: 9rem;
+    height: 9rem;
+    bottom: 2rem;
+    right: 20rem;
+}
+
+.circle5 {
+    width: 14rem;
+    height: 14rem;
+    bottom: 2rem;
+    left: 15rem;
+    opacity: .5;
+}
+
+/* .hover-circle{
+
+} */
